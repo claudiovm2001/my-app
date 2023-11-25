@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    font-size: 20;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
