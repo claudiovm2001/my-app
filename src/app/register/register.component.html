@@ -1,1 +1,35 @@
-<p>register works!</p>
+<h2 align="center" id="cadastro">Cadastrar Itens</h2>
+            <h4 align="center">Obs.: 'Diferenciais' é opcional</h4>
+            <form> 
+                Modelo:&nbsp;&nbsp;&nbsp;&nbsp;<input id="model" type="text" name="modelo" class="field"> <br> <br>
+                Marca: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="brand" type="text" name="marca" class="field"> <br> <br>
+
+                Tipo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select id="type" class="field">
+                    <option value="" selected disabled hidden></option>
+                    <option value="phone">Celular</option>
+                    <option value="computer">Computador</option>
+                    <option value="console">Console</option>
+                    <option value="portable">Portátil</option>
+                </select><br> <br>
+
+                Quantidade: &nbsp;<input id="quantity" type="number" name="qtd" class="field">
+                
+                <br> <br>
+                Condição: <input type="radio" name="condition" value="new"> Novo
+                          <input type="radio" name="condition" value="used"> Usado
+
+                <br> <br>
+                Diferenciais: &nbsp;
+                <input type="checkbox" name="A">WiFi
+                <input type="checkbox" name="B">Bluetooth
+                <input type="checkbox" name="C">Bivolt
+                
+                <br> <br>
+                <input type="reset" value="Limpar">
+                &nbsp;&nbsp;
+                <button>Cadastrar</button>
+            </form>
+
+
+            
