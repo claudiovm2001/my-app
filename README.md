@@ -1,6 +1,6 @@
 # MyApp
 
-PROJETO FEITO COMO TRABALHO DA CADEIRA DE TECNOLOGIAS DE INTERNET
+Projeto feito como trabalho da cadeira de Tecnologias de Internet, funcionando como um CRUD de uma pltaforma de Ecommerce.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
